@@ -1,3 +1,12 @@
+# Create your own Datadog account
+
+🚨 Before start
+
+- Do not run this lab in your production environment, as these images have vulnerabilities on purpose and you may put your environment at risk.
+- Do not run the tests in your Datadog environment, create a new account
+
+[Link to create a new account](https://app.datadoghq.com/signup?authType=basic)
+
 # Datadog ASM sample applications
 
 This repository contains the necessary resources to evaluate Datadog's code security products in the Java ecosystem.
