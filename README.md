@@ -79,6 +79,12 @@ For example, you can try to log-in using:
 * username: **john**
 * password: **test**
 
+Trigger SQLi Attacks 
+* ' OR 1=1 --
+
+Trigger Security scanner detected
+* nikto -C all -h http://localhost:8080/dashboard
+
 And you will have SQLi and LDAPi vulnerabilities available at Datadog (application `dd-asm-samples-insecure-bank`)
 
 ![Insecure Bank vulnerabilities](https://github.com/DataDog/dd-asm-samples/blob/main/images/insecure-bank-vulnerabilities-1.png?raw=true)
