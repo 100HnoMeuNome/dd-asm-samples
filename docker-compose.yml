@@ -7,6 +7,9 @@ x-dd-asm-samples: &x-dd-asm-samples
     DD_VERSION: 1.0
     DD_IAST_ENABLED: true
     DD_IAST_DETECTION_MODE: FULL
+    DD_APPSEC_ENABLED: true
+    DD_APPSEC_SCA_ENABLED: true
+    DD_REMOTE_CONFIGURATION_ENABLED: true
     DD_AGENT_HOST: datadog-agent
   depends_on:
     datadog-agent:
