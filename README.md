@@ -85,7 +85,9 @@ Trigger SQLi Attacks
 Trigger Security scanner detected
 * nikto -C all -h http://localhost:8080/dashboard
 
-And you will have SQLi and LDAPi vulnerabilities available at Datadog (application `dd-asm-samples-insecure-bank`)
+<img width="1173" height="147" alt="image" src="https://github.com/user-attachments/assets/576b07d5-9543-4c5e-958b-a4036111b934" />
+
+And for IAST you will have SQLi and LDAPi vulnerabilities available at Datadog (application `dd-asm-samples-insecure-bank`)
 
 ![Insecure Bank vulnerabilities](https://github.com/DataDog/dd-asm-samples/blob/main/images/insecure-bank-vulnerabilities-1.png?raw=true)
 
